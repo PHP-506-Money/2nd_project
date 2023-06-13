@@ -1,9 +1,7 @@
 <header>
-    <div class="headerlogo">
-
+    <div class="headerlogo" onclick="location.href='{{ route('main') }}'">
         <img src="{{ asset('/img/logo1.png') }}" alt="로고">
-
-        <p>FinMate</p>
+        <p>FinMate:GoToMain</p>
     </div>
     <div class="headerMain">
         <h1>@yield('header', 'header')</h1>

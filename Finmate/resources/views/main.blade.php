@@ -22,13 +22,15 @@
         </div>
     </div>
 
-    <div class="box">
-        <img src="{{ asset('/img/section1.jpg') }}" alt="">
+    <div class="box img">
+
+        <img src="{{ asset('/img/section1.png') }}" alt="">
     </div>
 </section>
 <section>
     <div class="box">
         <img src="{{ asset('/img/section1.jpg') }}" alt="">
+
     </div>
 
     <div class="box">
@@ -58,7 +60,9 @@
         </div>
     </div>
     <div class="box">
-        <img src="{{ asset('/img/section1.jpg') }}" alt="">
+    <img src="{{ asset('/img/section2.png') }}" alt="">
+
+        
     </div>
 
 </section>
@@ -86,13 +90,13 @@
             <div class="subtitle">자산 관리... 해야 하는건 아는데 귀찮아...<br>
                 핀메이트가 재미있게 해드릴게요!<br>
 
-                업적 시스템으로 게임처럼 재미있게 자산 관리를 시작해 보세요.</div>
+                업적 시스템으로 게임처럼 재미있게 <br>자산 관리를 시작해 보세요.</div>
 
             <a href="#" class="common-btn">사용해보기</a>
 
         </div>
     </div>
-    <div class="box">
+    <div class="box ">
         <img src="{{ asset('/img/section1.jpg') }}" alt="">
     </div>
 

@@ -1,3 +1,8 @@
+
+<div id="go-to-top">
+    <a href="#"></a>
+</div>
+
 <footer>
 <div class="footer-top">
     <div class="footer-top-left">
@@ -23,3 +28,6 @@
     <p>&copy; All Rights Reserved</p>
 </div>
 </footer>
+
+
+
