@@ -33,3 +33,6 @@ Route::get('/users/login', [UserController::class, 'login'])->name('users.login'
 Route::post('/users/loginpost', [UserController::class, 'loginpost'])->name('users.login.post');
 Route::get('/users/registration', [UserController::class, 'registration'])->name('users.registration');
 Route::post('/users/registrationpost', [UserController::class, 'registrationpost'])->name('users.registration.post');
+
+Route::get('/users/idsearch', [UserController::class, 'idsearch'])->name('users.idsearch');
+Route::get('/users/pwsearch', [UserController::class, 'pwsearch'])->name('users.pwsearch');
