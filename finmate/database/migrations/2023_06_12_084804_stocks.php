@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('stocks', function (Blueprint $table) {
-            // 글번호, 제목, 내용, 작성일, 수정일, 삭제일자, 삭제여부
-            $table->id('code');
-            $table->sting('stockName',50);
+            $table->integer('code')->primary();
+            $table->string('stockname',50);
+            $table->timestamps();
         });
     }
 

@@ -14,11 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('historyassets', function (Blueprint $table) {
-            // 글번호, 제목, 내용, 작성일, 수정일, 삭제일자, 삭제여부
-            $table->id('assetNo');
-            $table->sting('assetType',30);
-            $table->string('assetName',40)->unique();
-            $table->integer('balance');
+            $table->integer('assetno'); //fk
+            $table->integer('categoryno'); //fk
+            $table->timestamps();
+            $table->softDeletes();
+            $table->char('transaction',1);
+            $table->string('historyname',100)->nullable();
+
         });
     }
 
