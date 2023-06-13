@@ -27,8 +27,6 @@
         @endforelse
     </table>
 
-    <a class="button" href="{{route('boards.create')}}">글 작성</a>
-
 </div>
 
 
