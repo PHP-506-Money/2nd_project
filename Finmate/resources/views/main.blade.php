@@ -24,12 +24,12 @@
 
     <div class="box img">
 
-        <img src="{{ asset('/img/section1.png') }}" alt="">
+        <img src="{{ asset('/img/sec1.png') }}" alt="">
     </div>
 </section>
 <section>
     <div class="box">
-        <img src="{{ asset('/img/section1.jpg') }}" alt="">
+        <img src="{{ asset('/img/sec2.png') }}" alt="">
 
     </div>
 
