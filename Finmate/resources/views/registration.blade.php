@@ -23,6 +23,7 @@
         <p></p>
         <label for="email">이메일</label>
         <input type="email" name="email" id="email">
+        <button type="button">인증하기</button>
         <p></p>
         <label for="phone">휴대폰</label>
         <input type="tel" name="phone" id="phone">
