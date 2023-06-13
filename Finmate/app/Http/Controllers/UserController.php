@@ -75,4 +75,14 @@ class UserController extends Controller
             ->route('users.login')
             ->with('success', '회원가입을 완료 했습니다.<br>가입하신 아이디와 비밀번호로 로그인 해주십시오.');
     }
+
+    function idsearch() {
+        return view('idsearch');
+    }
+
+    function pwsearch() {
+        return view('pwsearch');
+    }
+
+
 }
