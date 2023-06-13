@@ -23,6 +23,6 @@ Route::get('/', function () {
     return view('main');
 });
 
-// Users
-Route::get('/users/login', [UserController::class, 'login'])->name('users.login');
-Route::post('/users/loginpost', [UserController::class, 'loginpost'])->name('users.login.post');
+Route::get('/main', function () {
+    return view('main');
+});
