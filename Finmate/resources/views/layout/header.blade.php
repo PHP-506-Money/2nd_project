@@ -10,7 +10,10 @@
 
     <a href="{{ route('users.logout') }}" class="nav-item {{ Request::is('users/logout') ? 'is-active' : '' }}" active-color="green">로그아웃</a> --}}
 
-    <a href="" class="nav-item is-active" active-color="red">test</a>
+    <a href="" class="nav-item is-active" active-color="#FF7676">main</a>
+    <a href="" class="nav-item is-active" active-color="#FF7676">sign up</a>
+    <a href="" class="nav-item is-active" active-color="#FF7676">login</a>
+
 
 
 
@@ -21,7 +24,10 @@
 
 @guest
 <nav class="nav">
-<a href="" class="nav-item is-active" active-color="red">test</a>
+<a href="" class="nav-item is-active" active-color="#FF7676">main</a>
+<a href="" class="nav-item is-active" active-color="#FF7676">sign up</a>
+<a href="" class="nav-item is-active" active-color="#FF7676">login</a>
+
 
 
 

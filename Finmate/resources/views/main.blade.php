@@ -8,23 +8,7 @@
 
 @section('contents')
 
-<div class="contBox form">
-
-    <table>
-
-
-
-        <tr>
-            <th>글번호</th>
-            <th>제목</th>
-            <th>조회수</th>
-            <th>등록일</th>
-            <th>수정일</th>
-        </tr>
-
-    </table>
-
-</div>
+<h1>메인 페이지 콘텐츠 영역입니다.</h1>
 
 
 @endsection
