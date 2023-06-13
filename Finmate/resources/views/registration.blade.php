@@ -8,19 +8,26 @@
     @include('layout.errorsvalidate')
     <form action="{{route('users.registration.post')}}" method="post">
         @csrf
-        <label for="name">Name : </label>
+        <label for="name">이름</label>
         <input type="text" name="name" id="name">
         <p></p>
-        <label for="email">Email : </label>
-        <input type="text" name="email" id="email">
+        <label for="id">아이디</label>
+        <input type="text" name="id" id="id">
+        <button type="button">중복확인</button>
         <p></p>
-        <label for="password">Password : </label>
+        <label for="password">비밀번호</label>
         <input type="password" name="password" id="password">
         <p></p>
-        <label for="passwordchk">Password check : </label>
+        <label for="passwordchk">비밀번호 확인</label>
         <input type="password" name="passwordchk" id="passwordchk">
         <p></p>
-        <button type="submit">Registration</button>
-        <button type="button" onclick="location.href='{{route('users.login')}}'">Cancel</button>
+        <label for="email">이메일</label>
+        <input type="email" name="email" id="email">
+        <p></p>
+        <label for="phone">휴대폰</label>
+        <input type="tel" name="phone" id="phone">
+        <p></p>
+
+        <button type="submit">가입하기</button>
     </form>
 @endsection
