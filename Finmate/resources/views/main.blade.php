@@ -29,7 +29,7 @@
 </section>
 <section>
     <div class="box">
-        <img src="{{ asset('/img/sec2.png') }}" alt="">
+        <img src="{{ asset('/img/sec2.jpg') }}" alt="">
 
     </div>
 
@@ -68,7 +68,8 @@
 </section>
 <section>
     <div class="box">
-        <img src="{{ asset('/img/section1.jpg') }}" alt="">
+        <img src="{{ asset('/img/sec4.jpg') }}" alt="">
+
     </div>
 
     <div class="box">
