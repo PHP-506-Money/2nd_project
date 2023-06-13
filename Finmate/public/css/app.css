@@ -1,6 +1,8 @@
 :root {
     --main-color: #1C3879;
     --sub-color: #FFFBF0;
+    --btn-color: #607EAA;
+    --active-color: #FF7676;
 }
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
@@ -106,7 +108,7 @@ header {
 }
 
 .nav-item:not(.is-active):hover {
-    color: #FF7676;
+    color: var(--active-color);
 }
 
 .nav-indicator {
@@ -162,3 +164,62 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+section {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: var(--main-color);
+}
+
+section:nth-child(odd) {
+    background-color: var(--sub-color);
+}
+
+section .box {
+    float: left;
+    width: 50%;
+    /* min-height: 650px; */
+    text-align: left;
+}
+
+section .box .text-box {
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+section .box .text-box h2 {
+    line-height: 60px;
+}
+
+section .box .text-box .subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 11.5px;
+}
+
+section .common-btn {
+    margin: 50px 0;
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: var(--sub-color);
+    text-align: center;
+    border-radius: 30px;
+    background: var(--btn-color);
+}
+
+section .common-btn:hover {
+    background: var(--active-color);
+}
+
+section .box img {
+    width: 300px;
+    height: 300px;
+}
+

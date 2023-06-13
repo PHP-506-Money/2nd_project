@@ -26,7 +26,8 @@ Route::get('/', function () {
 
 Route::get('/main', function () {
     return view('main');
-});
+})->name('main');
+
 
 // Users
 Route::get('/users/login', [UserController::class, 'login'])->name('users.login');
