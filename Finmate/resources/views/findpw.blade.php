@@ -18,7 +18,7 @@
         <button type="submit">비밀번호 찾기</button>
         <p></p>
         <a href="{{route('users.login')}}">로그인으로 돌아가기</a>
-        <a href="{{route('users.idsearch')}}">아이디 찾기</a>
+        <a href="{{route('users.findid')}}">아이디 찾기</a>
         <a href="{{route('users.registration')}}">회원가입</a>
     </form>
 @endsection

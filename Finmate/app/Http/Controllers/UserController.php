@@ -77,11 +77,11 @@ class UserController extends Controller
     }
 
     function idsearch() {
-        return view('idsearch');
+        return view('findid');
     }
 
     function pwsearch() {
-        return view('pwsearch');
+        return view('findpw');
     }
 
 
