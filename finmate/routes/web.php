@@ -6,6 +6,7 @@
  * History      : v001 0613 Subin.No new
  *******************************************/
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,3 +31,5 @@ Route::get('/main', function () {
 // Users
 Route::get('/users/login', [UserController::class, 'login'])->name('users.login');
 Route::post('/users/loginpost', [UserController::class, 'loginpost'])->name('users.login.post');
+Route::get('/users/registration', [UserController::class, 'registration'])->name('users.registration');
+Route::post('/users/registrationpost', [UserController::class, 'registrationpost'])->name('users.registration.post');

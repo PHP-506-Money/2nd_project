@@ -9,12 +9,16 @@
     <div>{!!session()->has('success') ? session('success') : ""!!}</div>
     <form action="{{route('users.login.post')}}" method="post">
         @csrf
-        <label for="email">Email : </label>
-        <input type="text" name="email" id="email">
-        <label for="password">Password : </label>
+        <label for="id">아이디</label>
+        <input type="text" name="id" id="id">
+        <p></p>
+        <label for="password">비밀번호</label>
         <input type="password" name="password" id="password">
         <p></p>
         <button type="submit">Login</button>
-        <button type="button" onclick="location.href='{{route('users.registration')}}'">Registration</button>
+        <p></p>
+        <a href="">아이디 찾기</a>
+        <a href="">비밀번호 찾기</a>
+        <a href="{{route('users.registration')}}">회원가입</a>
     </form>
 @endsection
