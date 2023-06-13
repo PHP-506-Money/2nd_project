@@ -1,4 +1,10 @@
 <?php
+/******************************************
+ * Project Name : Finmate
+ * Directory    : Route
+ * File Name    : web.php
+ * History      : v001 0613 Subin.No new
+ *******************************************/
 
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +22,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
+
+// Users
+Route::get('/users/login', [UserController::class, 'login'])->name('users.login');
+Route::post('/users/loginpost', [UserController::class, 'loginpost'])->name('users.login.post');
