@@ -20,11 +20,6 @@
             <th>수정일</th>
         </tr>
 
-
-
-        @empty
-
-        @endforelse
     </table>
 
 </div>
