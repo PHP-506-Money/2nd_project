@@ -6,6 +6,7 @@
  * History      : v001 0613 Subin.No new
  *******************************************/
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
