@@ -1,8 +1,10 @@
 @extends('layout.layout')
 
-@section('title', 'List Page')
+@section('title', 'WELCOME TO FINMATE')
 
-@section('header', 'List Page')
+
+@section('header', 'WELCOME TO FINMATE')
+
 
 @section('contents')
 
